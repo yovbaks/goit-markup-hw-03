@@ -23,19 +23,22 @@
     <title>Студия</title>
   </head>
   <body>
-    <header>
-      <nav>
+    <header class="page-header">
+      <nav class="container main-nav">
         <a href="./index.html" class="logo"><span class="web">Web</span>Studio</a>
         <ul class="nav-top">
-          <li><a href="./index.html" class="link current">Студия</a></li>
-          <li><a href="./portfolio.html" class="link">Портфолио</a></li>
-          <li><a href="#" class="link">Контакты</a></li>
+          <li class="item"><a href="./index.html" class="link current">Студия</a></li>
+          <li class="item"><a href="./portfolio.html" class="link">Портфолио</a></li>
+          <li class="item"><a href="#" class="link">Контакты</a></li>
+        </ul>
+
+        <ul class="contacts-top">
+          <li class="item">
+            <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
+          </li>
+          <li class="item"><a href="tel:+38096111111" class="link">+38 096 111 11 11</a></li>
         </ul>
       </nav>
-      <ul class="contacts-top">
-        <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
-        <li><a href="tel:+38096111111" class="link">+38 096 111 11 11</a></li>
-      </ul>
     </header>
     <main>
       <section class="hero">
@@ -45,30 +48,32 @@
         </h1>
         <button type="button" class="button-hero">Заказать услугу</button>
       </section>
-      <section class="features-list">
-        <h2 class="section-title">Наши преимущества</h2>
+      <section class="features-list container">
+        <h2 class="section-title visually-hidden">Наши преимущества</h2>
         <ul>
-          <li>
+          <li class="item">
             <h3 class="title">Внимание к деталям</h3>
             <p class="text">
               Идейные соображения, а также начало повседневной работы по формированию позиции.
             </p>
           </li>
-          <li>
+          <li class="item">
             <h3 class="title">Пунктуальность</h3>
-            <p>
+            <p class="text">
               Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
             </p>
           </li>
-          <li>
+          <li class="item">
             <h3 class="title">Планирование</h3>
-            <p>
+            <p class="text">
               Равным образом консультация с широким активом в значительной степени обуславливает.
             </p>
           </li>
-          <li>
+          <li class="item">
             <h3 class="title">Современные технологии</h3>
-            <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+            <p class="text">
+              Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+            </p>
           </li>
         </ul>
       </section>
