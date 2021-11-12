@@ -19,6 +19,11 @@ ul {
   margin: 0;
   padding: 0;
 }
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 
 body {
   font-family: Roboto, sans-serif;
@@ -52,6 +57,14 @@ li {
   padding-right: 15px;
   outline: 2px solid tomato;
 }
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.page-header {
+  border-bottom: 1px solid #ececec;
+}
+
 .main-nav {
   display: flex;
   align-items: center;
@@ -143,6 +156,8 @@ li {
   line-height: 1.16;
   letter-spacing: 0.03em;
   color: var(--title-color);
+  margin-bottom: 50px;
+  text-align: center;
 }
 
 /* Button  */
@@ -157,6 +172,7 @@ li {
   line-height: 1.9;
   letter-spacing: 0.06em;
   border-radius: 4px;
+  min-width: 73px;
 }
 
 .button.active:hover,
@@ -184,11 +200,15 @@ li {
   border-color: var(--bgcolor2);
 
 } */
+.button-list {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 50px;
+}
 
 /* Features  */
 .features-list {
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 .features-list ul {
   display: flex;
@@ -200,6 +220,7 @@ li {
 .features-list .item + .item {
   margin-left: 30px;
 }
+
 .features-list .text {
   font-size: 14px;
   line-height: 1.7;
@@ -215,9 +236,37 @@ li {
   text-transform: uppercase;
 }
 
+/* What we do */
+.whatwedo {
+  padding-bottom: 94px;
+}
+.whatwedo-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.whatwedo-item {
+}
+
 /* Comanda  */
 .comanda {
   background-color: var(--bgcolor2);
+}
+.comanda-list {
+  display: flex;
+}
+.comanda-item {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  background-color: #ffffff;
+}
+
+.comanda-article {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+
+  align-content: center;
 }
 .comanda .title {
   color: var(--title-color);
@@ -225,6 +274,7 @@ li {
   font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+  margin-bottom: 10px;
 }
 .comanda .text {
   font-size: 16px;
@@ -244,6 +294,8 @@ li {
   /* border: 1px solid #EEEEEE; */
   margin-right: 30px;
   margin-bottom: 30px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
 }
 
 .galery-item:nth-child(3n) {
@@ -258,6 +310,7 @@ li {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin-bottom: 4px;
 }
 .gallery-text {
   color: var(--text-color);
@@ -265,7 +318,11 @@ li {
   line-height: 1.87;
   letter-spacing: 0.03em;
 }
-
+.galery-article {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0 24px;
+}
 .footer {
   background-color: var(--bgcolor-accent);
 }
