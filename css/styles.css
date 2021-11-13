@@ -261,7 +261,7 @@ li {
 }
 .whatwedo-list {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   margin: 0 auto;
 }
 .whatwedo-item {
