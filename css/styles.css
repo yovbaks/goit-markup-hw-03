@@ -57,6 +57,7 @@ li {
   width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
+  /* outline:  1px solid tomato; */
   
 }
 .section {
@@ -309,25 +310,22 @@ li {
 }
 /* --------------Gallery ------------------*/
 
-.gallery {
+
+.gallery-list{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
-}
-/* .gallery-list{
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: -30px;
-  margin-top: -30px;
+  /* margin-left: -30px;
+  margin-top: -30px; */
  
-}
+} 
 
-.galery-item{
+/* .galery-item{
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-top: 30px;
-} */
+}  */
 
 .galery-item {
   width: 370px;
