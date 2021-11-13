@@ -63,6 +63,9 @@ li {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+
+
+/* --------------HEADER------------------- */
 .page-header {
   border-bottom: 1px solid #ececec;
 }
@@ -71,7 +74,7 @@ li {
   display: flex;
   align-items: center;
 }
-/* LOGO  */
+/*-------------------- LOGO --------------- */
 .logo {
   font-family: Raleway;
   font-weight: 700;
@@ -88,7 +91,7 @@ li {
   color: var(--white-color);
 }
 
-/* Navigation  */
+/* -----------------Navigation-----------  */
 .nav-top {
   display: flex;
   margin-left: 93px;
@@ -134,7 +137,7 @@ li {
   color: var(--theme-color);
 }
 
-/* Hero  */
+/* ---------------------Hero-----------------  */
 
 .hero {
   background-color: var(--bgcolor-accent);
@@ -162,7 +165,7 @@ li {
   text-align: center;
 }
 
-/* Button  */
+/* ---------------- Button -------------  */
 .button {
   background-color: var(--bgcolor2);
   color: var(--title-color);
@@ -222,8 +225,7 @@ li {
 }
 
 /* -----------------Features----------------  */
-.features-list {
-}
+
 .features-list ul {
   display: flex;
   justify-content: space-between;
@@ -294,7 +296,7 @@ li {
   padding-bottom: 30px;
   text-align: center;
 
-  align-content: center;
+  /* align-content: center; */
 }
 .comanda .title {
   color: var(--title-color);
