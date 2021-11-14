@@ -44,13 +44,14 @@
       <h1 class="visually-hidden">Галерея</h1>
       <section class="section">
         <div class="container">
-          <div class="button-list">
-            <button type="button" class="button active item">Все</button>
-            <button type="button" class="button active item">Веб-сайты</button>
-            <button type="button" class="button active item">Приложения</button>
-            <button type="button" class="button active item">Дизайн</button>
-            <button type="button" class="button active item">Маркетинг</button>
-          </div>
+          <ul class="button-list">
+            <li class="item"><button type="button" class="button active">Все</button></li>
+            <li class="item"><button type="button" class="button active">Веб-сайты</button></li>
+            <li class="item"><button type="button" class="button active">Приложения</button></li>
+            <li class="item"><button type="button" class="button active">Дизайн</button></li>
+            <li class="item"><button type="button" class="button active">Маркетинг</button></li>
+          </ul>
+
           <ul class="gallery gallery-list">
             <li class="galery-item">
               <a href="">
@@ -139,17 +140,17 @@
     </main>
     <footer class="footer">
       <div class="container">
-        <a href="./index.html" class="logo">
-          <div class="footer-logo">
-            <span class="web">Web</span><span class="footer">Studio</span>
-          </div></a
-        >
+        <a href="./index.html" class="logo footer-logo">
+          <span class="web">Web</span><span class="footer">Studio</span>
+        </a>
         <address class="address">г. Киев, пр-т Леси Украинки, 26</address>
         <ul>
           <li class="footer-contacts">
             <a href="mailto:info@example.com" class="contacts">info@example.com</a>
           </li>
-          <li><a href="tel:+380991111111" class="contacts">+38 099 111 11 11</a></li>
+          <li class="footer-contacts">
+            <a href="tel:+380991111111" class="contacts">+38 099 111 11 11</a>
+          </li>
         </ul>
       </div>
     </footer>

@@ -201,6 +201,7 @@ li {
   letter-spacing: 0.06em;
   border-radius: 4px;
   border-style: none;
+  padding: 10px 32px;
 }
 /* .button-hero:focus, .button-hero:hover{
   background-color: var(--bgcolor2);
@@ -215,12 +216,15 @@ li {
   margin-bottom: 50px;
 }
 .button-list .item {
-  margin-left: 8px;
+ 
   box-shadow: var(--box-shadow);
   border-radius: 4px;
 }
-.button-list .item:first-child {
-  margin-left: 0;
+.button-list .item:not(:last-child){
+  margin-right: 8px;
+}
+.button-list .button{
+  padding: 6px 22px;
 }
 
 /* -----------------Features----------------  */
@@ -370,6 +374,7 @@ li {
   padding-bottom: 60px;
 }
 .footer-logo {
+  display: inline-block;
   margin-bottom: 20px;
 }
 .address {
@@ -387,6 +392,6 @@ li {
   font-size: 14px;
   line-height: 1.7;
 }
-.footer-contacts {
+.footer-contacts:not(:last-child){
   margin-bottom: 9px;
 }
